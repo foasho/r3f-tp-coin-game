@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { Sky, Preload, Environment } from '@react-three/drei';
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import { InputControlProvider } from './hooks/useInputControl';
 import { BVHWalk } from './canvas/BVHWalk'
 import { DomUI } from './dom/DomUI'

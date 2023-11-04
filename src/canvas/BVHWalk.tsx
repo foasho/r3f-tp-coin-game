@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import { useThree } from '@react-three/fiber'
 import { Player } from './Player'
 import { Field } from './Field'

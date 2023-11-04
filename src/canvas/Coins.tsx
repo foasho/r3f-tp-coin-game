@@ -1,6 +1,6 @@
 import seedrandom from "seedrandom";
-import { Color, Euler, Vector3, Mesh, Group } from "three";
-import { Suspense, useEffect, useRef, useState } from "react";
+import { Euler, Vector3, Group } from "three";
+import { Suspense, useRef, useState } from "react";
 import { useFrame } from "@react-three/fiber";
 import { Clone, Text3D, useFont, useGLTF } from "@react-three/drei";
 import { useCoinStore, usePlayerStore } from "../utils/store";

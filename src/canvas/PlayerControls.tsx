@@ -1,6 +1,7 @@
 import React, { MutableRefObject, useEffect, useRef, useState } from 'react'
 import { useThree, useFrame } from '@react-three/fiber'
 import { OrbitControls, RoundedBox } from '@react-three/drei'
+// @ts-ignore
 import { OrbitControls as OrbitControlsImpl } from 'three-stdlib'
 import { StaticGeometryGenerator, MeshBVH } from 'three-mesh-bvh'
 import { Mesh, Vector3, Object3D, Box3, Line3, Matrix4, Group, BufferGeometry, Raycaster, AnimationAction, AnimationMixer } from 'three'
